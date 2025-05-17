@@ -1,0 +1,81 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    padding-bottom: 80px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px 60px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.headlines h1 {
+    font-size: 2.8em;
+    margin-bottom: 0.5em;
+    padding-top: 20px;
+}
+
+.headlines h2 {
+    text-align: center;
+    color: #000; /* matches h1 */
+    font-size: 1.4em; /* slightly smaller */
+    margin-bottom: 1.0em;
+}
+
+.headlines h1,
+.headlines h2 {
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #555;
+    text-align: center;
+    max-width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 1em; /* adds space below the caption */
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.byline,
+.dateline {
+    font-style: normal;
+    color: #000;
+    margin: 0;
+}
+
+.byline {
+    padding-top: 40px;
+    margin-bottom: 0.2em;
+}
+
+.story p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+div.story {
+    paddomg-top: 80px;
+    padding-bottom: 100px;
+}
+
+.map-container {
+    padding: 20px 40px; /* 20px top/bottom, 40px left/right */
+}
+
+
+
